@@ -18,11 +18,33 @@
 
     <h2>Position: Absolute</h2>
 
+    <div class="sticky">Vasco da Gama , gigante da colina.</div>
+
+    <div class="relative-absolute">
+      <div class="absolute">Essa div é absoluta.</div>
+    </div>
+
+    <div class="relative-absolute">
+      <div class="absolute">Essa div é absoluta.</div>
+    </div>
+
+    <div class="relative-absolute">
+      <div class="absolute">Essa div é absoluta.</div>
+    </div>
+
     <div class="relative-absolute">
       <div class="absolute">Essa div é absoluta.</div>
     </div>
 
     <style>
+      .sticky {
+        top: 0;
+        position: sticky;
+        background-color: brown;
+        padding: 30px;
+        font-size: 30px;
+      }
+
       .relative-absolute {
         position: relative;
         width: 400px;

@@ -1,0 +1,19 @@
+.conteudo { 
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border: 1px solid green;
+}
+
+.paragrafo-1 {
+  text-transform: uppercase;
+  color: red;
+  font-size: 30px;
+}
+
+.paragrafo-2 {
+  text-transform: lowercase;
+  color: blue;
+  font-size: small;
+  font-family: Arial, sans-serif;
+}
