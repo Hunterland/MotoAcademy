@@ -66,3 +66,6 @@ const numero = 29;
 if (numero == "29") {
   console.log("ele é igual a 22");
 }
+
+
+const pessoa = { joao}
