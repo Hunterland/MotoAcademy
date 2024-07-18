@@ -1,9 +1,37 @@
-function olaMundo() {
-  console.log("Oi a todos");
+/*
+
+const nome = "Alan";
+const idade = "29";
+
+export function soma(a, b) {
+ return a + b;
 }
 
-function tchauMundo() {
-  console.log(" tchau mundo");
+const PI = 3.14;
+
+function areaCirculo(raio) {
+  return PI * raio * raio;
 }
 
-module.exports = olaMundo;
+module.exports = {
+  nome,
+  idade,
+  soma,
+  areaCirculo,
+  PI,
+};
+
+*/
+
+const array = [
+  {
+    time: "Vasco",
+    titulo: "O melhor time do brasil!",
+  },
+  {
+    time: "Flamengo",
+    titulo: "Time do hexa cheirinho!",
+  },
+];
+
+module.exports  = array
