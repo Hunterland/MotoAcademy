@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="paragrafo">Mudar cor desse brother</p>
+    <button id="mudarCorBotao">Botão</button>
+
+    <script>
+      //document.getElementById('mudarCorBotao', () => {
+
+      //})
+
+      document
+        .getElementById("mudarCorBotao")
+        .addEventListener("click", function () {
+          const texto = document.getElementById("paragrafo");
+          texto.style.color = "red";
+          texto.style.fontSize = "50px";
+          texto.style.fontWeight = "bold";
+        });
+    </script>
+  </body>
+</html>
