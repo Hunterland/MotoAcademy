@@ -18,7 +18,7 @@ let users = [
   { id: 2, name: "Filipe" },
 ];
 
-app.get("/usuarios", checkLogin, (req, res) => {
+app.get("/usuarios",checkLogin, (req, res) => {
   res.status(200).json(users);
 });
 
